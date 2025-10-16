@@ -1,8 +1,9 @@
 import { TILE_WORLD_SIZE, type Tile } from "../../store";
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export function RoadObject({ tile }: { tile: Tile }) {
     const color = "#6b7280";
+
+    console.log(tile);
 
     return (
         <mesh castShadow receiveShadow>
